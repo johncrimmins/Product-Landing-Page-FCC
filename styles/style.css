@@ -5,7 +5,11 @@ body {
 }
 
 header {
+    background-color: #eee;
     display: inline-block;
+    position: sticky;
+    top: 0;
+    
 }
 
 nav a {
@@ -65,15 +69,65 @@ nav a {
     width: 80%;
     margin: auto;
     border: 1px solid black;
-    padding: 10px;
+    padding: 0x;
     text-align: center;
+
 }
 
 .pricing-element h3 {
-    width: 100%;
+    width: auto;
     background-color: #ddd;
     height: 100%;
+    margin: 0px;
+    padding: 10px;
 }
+
+.prices {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+input[type="button"] {
+    margin-bottom: 10px;
+    font: 400 13.3333px Arial;
+}
+
+input[value="Select"] {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+}
+
+.footer {
+    background-color: #ddd;
+    grid-template-rows: auto auto;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ul {
+
+    /* ENDED HERE - Trying to figure out how to style the list items without the bullet, having proper spacing. */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    padding: 10px;
+}
+
 
 h1 {
     text-align: center;
