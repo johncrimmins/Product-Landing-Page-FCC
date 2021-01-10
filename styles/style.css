@@ -1,0 +1,106 @@
+
+
+body {
+    background-color: #eee;
+}
+
+header {
+    display: inline-block;
+}
+
+nav a {
+    margin: 20px 40px;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    width: 75%;
+    margin: auto;
+    
+}
+
+.feature-icon {
+    width: 75%;
+    height: 1fr;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    
+}
+
+.icons {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: auto;
+    align-items: center;
+}
+
+.feature-copy {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.feature-paragraph {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.feature-paragraph {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    margin: auto;
+}
+
+.pricing-element {
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.pricing-element h3 {
+    width: 100%;
+    background-color: #ddd;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#email {
+    width: 20%;
+}
+
+#submit {
+    width: 10%;
+    margin-top: 10px;
+    background-color: orange;
+}
+
+
+#nav-bar {
+    float: right;
+}
+
+#logo {
+    max-width: 30%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
