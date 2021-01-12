@@ -61,8 +61,10 @@ nav a {
 .Pricing {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-evenly;
     width: 75%;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 .pricing-element {
@@ -109,6 +111,13 @@ input[value="Select"] {
 .footer {
     background-color: #ddd;
     grid-template-rows: auto auto;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer p {
+    margin-right: 10px;
 }
 
 .footer-links {
@@ -117,15 +126,26 @@ input[value="Select"] {
     justify-content: flex-end;
 }
 
-ul {
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
 
-    /* ENDED HERE - Trying to figure out how to style the list items without the bullet, having proper spacing. */
+ul {
 
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin-right: 10px;
-    padding: 10px;
+    list-style-type: none;
+}
+
+li {
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 
